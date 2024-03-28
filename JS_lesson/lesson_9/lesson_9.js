@@ -15,6 +15,8 @@ clone.style.backgroundColor='green';
 document.body.appendChild(clone);
 // - Є масив:
 
+
+
 // Зробити ul в середині якої будуть лежати елементи масиву (кожен в своєму li)
 let arr = ['Main','Products','About us','Contacts'];
 let a = document.createElement('ul')
@@ -29,7 +31,7 @@ for (const text of arr) {
 //     {title: 'QA Complex', monthDuration: 4},
 //     {title: 'FullStack', monthDuration: 7},
 //     {title: 'Frontend', monthDuration: 4}
-// ];
+// ];;
 // Для кожного елементу масиву зробити блок в якому вивести інформацію про title та monthDuration
 // Завдання робити через цикли.
 //
