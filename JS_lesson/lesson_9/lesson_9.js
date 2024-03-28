@@ -15,6 +15,7 @@ clone.style.backgroundColor='green';
 document.body.appendChild(clone);
 // - Є масив:
 
+
 // Зробити ul в середині якої будуть лежати елементи масиву (кожен в своєму li)
 let arr = ['Main','Products','About us','Contacts'];
 let a = document.createElement('ul')
