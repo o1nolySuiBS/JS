@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="546bde07-a5fd-4c8a-80bf-c7ef883722cc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS_lesson/lesson_1/lesson_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS_lesson/lesson_1/lesson_1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS_lesson/lesson_2/lesson_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS_lesson/lesson_2/lesson_2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS_lesson/lesson_3/lesson_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS_lesson/lesson_3/lesson_3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS_lesson/lesson_4/lesson_4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS_lesson/lesson_4/lesson_4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS_lesson/lesson_5/lesson_5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS_lesson/lesson_5/lesson_5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS_lesson/lesson_6/lesson_6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS_lesson/lesson_6/lesson_6.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS_lesson/lesson_8/lesson_8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS_lesson/lesson_8/lesson_8.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS_lesson/lesson_9/lesson_9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS_lesson/lesson_9/lesson_9.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS_lesson/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2eGO7guWSpeFOHoWKAa8pJcWiVl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="546bde07-a5fd-4c8a-80bf-c7ef883722cc" name="Changes" comment="" />
+      <created>1711527282899</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1711527282899</updated>
+      <workItem from="1711527283907" duration="65000" />
+      <workItem from="1711527355121" duration="29000" />
+      <workItem from="1711527394105" duration="21000" />
+      <workItem from="1711527425837" duration="61000" />
+      <workItem from="1711527518661" duration="740000" />
+      <workItem from="1711577967273" duration="268000" />
+      <workItem from="1711578267271" duration="36000" />
+      <workItem from="1711578312425" duration="14000" />
+      <workItem from="1711578336207" duration="34000" />
+      <workItem from="1711578392350" duration="87000" />
+      <workItem from="1711578509188" duration="4957000" />
+      <workItem from="1711631326418" duration="28000" />
+      <workItem from="1711631364613" duration="50000" />
+      <workItem from="1711631439637" duration="4000" />
+      <workItem from="1711631449062" duration="6000" />
+      <workItem from="1711631495101" duration="36000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
