@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="546bde07-a5fd-4c8a-80bf-c7ef883722cc" name="Changes" comment="lesson_9_update." />
+    <list default="true" id="546bde07-a5fd-4c8a-80bf-c7ef883722cc" name="Changes" comment="lesson_9_update.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS_lesson/lesson_9/lesson_9.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS_lesson/lesson_9/lesson_9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS_lesson/lesson_9/lesson_9.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS_lesson/lesson_9/lesson_9.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,7 +75,9 @@
       <workItem from="1711631439637" duration="4000" />
       <workItem from="1711631449062" duration="6000" />
       <workItem from="1711631495101" duration="36000" />
-      <workItem from="1711631541285" duration="344000" />
+      <workItem from="1711631541285" duration="441000" />
+      <workItem from="1711863379582" duration="1828000" />
+      <workItem from="1711868128452" duration="4571000" />
     </task>
     <task id="LOCAL-00001" summary="lesson_9_update">
       <option name="closed" value="true" />
@@ -113,7 +119,23 @@
       <option name="project" value="LOCAL" />
       <updated>1711631887005</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="lesson_9_update.">
+      <option name="closed" value="true" />
+      <created>1711631926569</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1711631926569</updated>
+    </task>
+    <task id="LOCAL-00007" summary="lesson_9_update.">
+      <option name="closed" value="true" />
+      <created>1711631952027</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1711631952027</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
