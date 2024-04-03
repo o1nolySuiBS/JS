@@ -4,26 +4,26 @@
 // - додати цей блок в body.
 // - клонувати його повністю, та додати клон в body.
 let div = document.createElement('div');
-div.style.height='15vh';
-div.style.width='20vw'
+div.style.height = '15vh';
+div.style.width = '20vw'
 console.log(div.classList.value);
 div.classList.add('wrap', 'collapse', 'alpha', 'beta');
-div.style.backgroundColor='black';
-div.style.color='white';
-div.style.fontSize ='14px';
+div.style.backgroundColor = 'black';
+div.style.color = 'white';
+div.style.fontSize = '14px';
 document.body.appendChild(div);
 let clone = div.cloneNode(true);
-clone.style.backgroundColor='green';
+clone.style.backgroundColor = 'green';
 document.body.appendChild(clone);
 // - Є масив:
 //['Main','Products','About us','Contacts']
 // Зробити ul в середині якої будуть лежати елементи масиву (кожен в своєму li)
-let arr = ['Main','Products','About us','Contacts'];
+let arr = ['Main', 'Products', 'About us', 'Contacts'];
 let ul = document.createElement('ul')
 for (const text of arr) {
-let li = document.createElement('li');
-li.innerText = text;
-ul.appendChild(li)
+    let li = document.createElement('li');
+    li.innerText = text;
+    ul.appendChild(li)
 }
 document.body.append(ul)
 // - Є масив
@@ -71,7 +71,7 @@ let simpsons = [
         name: 'Bart',
         surname: 'Simpson',
         age: 10,
-        info: 'Бартолом\'ю ДжоДжо «Барт» Сімпсон (англ. Bartholomew JoJo «Bart» Simpson) — один із головних героїв мультиплікаційного серіалу Сімпсони. Барт — найстарша дитина Гомера і Мардж Сімпсон. У нього також є дві молодші сестри — Ліса і Меґґі. Барт є втіленням образу бешкетника та посереднього учня у школі. Разом зі своїм батьком Барт є одним із найвідоміших персонажів у цьому серіалі.',
+        info: '«Барт» Сімпсон (англ. Bartholomew JoJo «Bart» Simpson) — один із головних героїв мультиплікаційного серіалу Сімпсони. Барт — найстарша дитина Гомера і Мардж Сімпсон. У нього також є дві молодші сестри — Ліса і Меґґі. Барт є втіленням образу бешкетника та посереднього учня у школі. Разом зі своїм батьком Барт є одним із найвідоміших персонажів у цьому серіалі.',
         photo: 'https://upload.wikimedia.org/wikipedia/uk/a/aa/Bart_simpson.png'
     }, {
         name: 'Homer',
@@ -98,16 +98,128 @@ let simpsons = [
         info: 'Ма́ргарет Эвелин «Мэ́гги» Си́мпсон (англ. Margaret Evelyn “Maggie” Simpson) — персонаж мультсериала «Симпсоны». Впервые появилась на телевидении в шоу Трейси Ульман, в короткометражке Good Night (англ.)русск. 19 апреля 1987 года. Мэгги была придумана и разработана карикатуристом Мэттом Грейнингом, пока он ждал встречи с Джеймсом Л. Бруксом. Названа в честь младшей сестры Грейнинга. После появления в шоу Трейси Ульман, через три года семья Симпсонов получила собственный сериал на телеканале Fox, дебют произошёл 17 декабря 1989 года.',
         photo: 'https://upload.wikimedia.org/wikipedia/ru/9/9d/Maggie_Simpson.png'
     },];
+let divss = document.createElement('div');
+divss.classList.add('all')
+document.body.appendChild(divss)
+simpsons.forEach(person => {
+    let divk = document.createElement('div');
+    div.classList.add('member');
 
+    let h2 = document.createElement('h2');
+    h2.innerHTML = `${person.name} ${person.surname} age: ${person.age}`;
 
+    let imgg = document.createElement('img');
+    imgg.src = person.photo;
+    imgg.alt = '';
 
+    let pp = document.createElement('p');
+    pp.innerHTML = `${person.info}`;
 
-
-
-
+    divk.append(h2, imgg, pp);
+    document.body.appendChild(divk);
+    divss.appendChild(div)
+})
 // =========================
 //     Цикл в циклі
 // - Є масив coursesArray котрий лежить в arrays.js (на цей момент ви вже знаєте де він знаходиться)
-//
-// Створити для кожного елементу масиву свій блок, блок розділити блоками, в яких будуть зберігатись значення окремих властивостей, для властивості modules зробити список з елементами
+// Створити для кожного елементу масиву свій блок, блок розділити блоками, в яких будуть зберігатись значення-
+// -окремих властивостей, для властивості modules зробити список з елементами
 // Приклад структири знаходиться у файлі example.png який лежить в папці з поточним фйлом
+let coursesArray = [
+    {
+        title: 'JavaScript Complex',
+        monthDuration: 5,
+        hourDuration: 909,
+        modules: ['html', 'css', 'js', 'mysql', 'mongodb', 'react', 'angular', 'aws', 'docker', 'git', 'node.js']
+    },
+    {
+        title: 'Java Complex',
+        monthDuration: 6,
+        hourDuration: 909,
+        modules: ['html',
+            'css',
+            'js',
+            'mysql',
+            'mongodb',
+            'angular',
+            'aws',
+            'docker',
+            'git',
+            'java core',
+            'java advanced']
+    },
+    {
+        title: 'Python Complex',
+        monthDuration: 6,
+        hourDuration: 909,
+        modules: ['html',
+            'css',
+            'js',
+            'mysql',
+            'mongodb',
+            'angular',
+            'aws',
+            'docker',
+            'python core',
+            'python advanced']
+    },
+    {
+        title: 'QA Complex',
+        monthDuration: 4,
+        hourDuration: 909,
+        modules: ['html', 'css', 'js', 'mysql', 'mongodb', 'git', 'QA/QC']
+    },
+    {
+        title: 'FullStack',
+        monthDuration: 7,
+        hourDuration: 909,
+        modules: ['html',
+            'css',
+            'js',
+            'mysql',
+            'mongodb',
+            'react',
+            'angular',
+            'aws',
+            'docker',
+            'git',
+            'node.js',
+            'python',
+            'java']
+    },
+    {
+        title: 'Frontend',
+        monthDuration: 4,
+        hourDuration: 909,
+        modules: ['html', 'css', 'js', 'mysql', 'mongodb', 'react', 'angular', 'aws', 'docker', 'git', 'sass']
+    }
+];
+
+
+let Fblock = document.createElement('div')
+coursesArray.forEach(function (Element) {
+    let block = document.createElement('div');
+    block.classList.add('block');
+
+    let title = document.createElement('div');
+    title.innerHTML = `title: ${Element.title}`;
+
+    let monthDuration = document.createElement('div');
+     title.innerHTML = `monthDuration: ${Element.monthDuration}`;
+
+    let hourDuration = document.createElement('div');
+    title.innerHTML = `hourDuration: ${Element.hourDuration}`;
+
+    let module = document.createElement('ul');
+    module.innerHTML = 'Modules: ';
+    Element.modules.forEach(function (mod) {
+        let moduleli = document.createElement('li');
+        moduleli.innerHTML = mod;
+        module.appendChild(moduleli);
+    });
+    block.append(title, module, monthDuration, hourDuration);
+    Fblock.appendChild(block)
+    block.style.margin = `15vh`
+});
+document.body.appendChild(Fblock)
+
