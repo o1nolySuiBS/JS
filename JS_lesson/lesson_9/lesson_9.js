@@ -223,4 +223,3 @@ coursesArray.forEach(function (Element) {
 });
 document.body.appendChild(Fblock)
 
-A
