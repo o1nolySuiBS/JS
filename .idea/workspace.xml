@@ -5,9 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="546bde07-a5fd-4c8a-80bf-c7ef883722cc" name="Changes" comment="lesson_9_update.">
-      <change afterPath="$PROJECT_DIR$/JS_lesson/lesson_10/lesson_10.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS_lesson/lesson_10/lesson_10.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS_lesson/lesson_10/TASK 1, 2/lesson_10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS_lesson/lesson_10/TASK 1, 2/lesson_10.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS_lesson/lesson_10/TASK 3/page 1/page 1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS_lesson/lesson_10/TASK 3/page 2/page 2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS_lesson/lesson_10/TASK 3/page 2/page 2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS_lesson/lesson_11/User.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS_lesson/lesson_11/lesson_11.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS_lesson/lesson_11/user-details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS_lesson/lesson_11/user-details.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS_lesson/lesson_10/lesson_10.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS_lesson/lesson_10/TASK 3/page 1/page 1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS_lesson/lesson_10/lesson_10.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS_lesson/lesson_9/lesson_9.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS_lesson/lesson_9/lesson_9.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JS_lesson/lesson_9/lesson_9.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS_lesson/lesson_9/lesson_9.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +62,12 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ihor1\IdeaProjects\JS\JS_lesson\lesson_10\TASK 3\page 1" />
+      <recent name="C:\Users\ihor1\IdeaProjects\JS\JS_lesson\lesson_10\TASK 1, 2" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -80,7 +96,17 @@
       <workItem from="1711863379582" duration="1828000" />
       <workItem from="1711868128452" duration="8193000" />
       <workItem from="1712038919652" duration="722000" />
-      <workItem from="1712117392547" duration="7600000" />
+      <workItem from="1712117392547" duration="9496000" />
+      <workItem from="1712182283683" duration="1060000" />
+      <workItem from="1712183362495" duration="11595000" />
+      <workItem from="1714697212896" duration="2573000" />
+      <workItem from="1716936077618" duration="1465000" />
+      <workItem from="1717172354501" duration="7677000" />
+      <workItem from="1717188241022" duration="4189000" />
+      <workItem from="1717280681396" duration="10749000" />
+      <workItem from="1717588559478" duration="10544000" />
+      <workItem from="1717709382952" duration="3000" />
+      <workItem from="1717781904630" duration="1263000" />
     </task>
     <task id="LOCAL-00001" summary="lesson_9_update">
       <option name="closed" value="true" />
@@ -146,7 +172,31 @@
       <option name="project" value="LOCAL" />
       <updated>1711954187253</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="lesson_9_update.">
+      <option name="closed" value="true" />
+      <created>1712126794930</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1712126794930</updated>
+    </task>
+    <task id="LOCAL-00010" summary="lesson_9_update.">
+      <option name="closed" value="true" />
+      <created>1712126814709</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1712126814709</updated>
+    </task>
+    <task id="LOCAL-00011" summary="lesson_9_update.">
+      <option name="closed" value="true" />
+      <created>1712126823809</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1712126823809</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

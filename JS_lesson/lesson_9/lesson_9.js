@@ -196,30 +196,36 @@ let coursesArray = [
 ];
 
 
-let Fblock = document.createElement('div')
-coursesArray.forEach(function (Element) {
-    let block = document.createElement('div');
-    block.classList.add('block');
+const container = document.createElement("div");
+container.classList.add('container')
+coursesArray.forEach((Element) => {
+    let block = document.createElement("div");
+    block.classList.add("block");
 
-    let title = document.createElement('div');
+    let title = document.createElement("div");
     title.innerHTML = `title: ${Element.title}`;
+    title.classList.add('title')
 
-    let monthDuration = document.createElement('div');
-     title.innerHTML = `monthDuration: ${Element.monthDuration}`;
+    let monthDuration = document.createElement("div");
+    monthDuration.innerHTML = `monthDuration: ${Element.monthDuration}`;
+    monthDuration.classList.add('monthDuration')
 
-    let hourDuration = document.createElement('div');
-    title.innerHTML = `hourDuration: ${Element.hourDuration}`;
+    let hourDuration = document.createElement("div");
+    hourDuration.innerHTML = `hourDuration: ${Element.hourDuration}`;
+    hourDuration.classList.add('hourDuration')
+    let module = document.createElement("ul");
+    module.innerHTML = "Modules: ";
+    module.classList.add('module')
 
-    let module = document.createElement('ul');
-    module.innerHTML = 'Modules: ';
     Element.modules.forEach(function (mod) {
-        let moduleli = document.createElement('li');
+        let moduleli = document.createElement("li");
         moduleli.innerHTML = mod;
         module.appendChild(moduleli);
     });
-    block.append(title, module, monthDuration, hourDuration);
-    Fblock.appendChild(block)
-    block.style.margin = `15vh`
+
+    block.append(title, monthDuration, hourDuration, module);
+    container.appendChild(block);
 });
-document.body.appendChild(Fblock)
+
+document.body.appendChild(container);
 
