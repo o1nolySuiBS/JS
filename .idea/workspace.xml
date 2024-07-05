@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="546bde07-a5fd-4c8a-80bf-c7ef883722cc" name="Changes" comment="lesson_11_update.">
-      <change afterPath="$PROJECT_DIR$/JS_lesson/Rome/Rome.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="546bde07-a5fd-4c8a-80bf-c7ef883722cc" name="Changes" comment="lesson_rome" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -109,6 +106,7 @@
       <workItem from="1718707585293" duration="142000" />
       <workItem from="1718996925812" duration="6000" />
       <workItem from="1719923932324" duration="1037000" />
+      <workItem from="1719930853674" duration="48000" />
     </task>
     <task id="LOCAL-00001" summary="lesson_9_update">
       <option name="closed" value="true" />
@@ -214,7 +212,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717861107757</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="lesson_rome">
+      <option name="closed" value="true" />
+      <created>1719930864685</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1719930864685</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,6 +242,7 @@
     <MESSAGE value="Revert &quot;lesson_9_update&quot;&#10;&#10;This reverts commit dc6a8449" />
     <MESSAGE value="lesson_9_update." />
     <MESSAGE value="lesson_11_update." />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson_11_update." />
+    <MESSAGE value="lesson_rome" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson_rome" />
   </component>
 </project>
