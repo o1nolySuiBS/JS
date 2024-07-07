@@ -1,18 +1,18 @@
 //- створити функцію яка обчислює та повертає площу прямокутника зі сторонами а і б
 let calc = (a, b) => a * b
-console.log(calc(10, 12))
+console.log(calc(10, 12));
 
 //- створити функцію яка обчислює та повертає площу кола з радіусом r
 let calc2 = (a) => a * a * 3.14
-console.log(calc2(3))
+console.log(calc2(3));
 
 //- створити функцію яка обчислює та повертає площу циліндру висотою h, та радіутом r
 let calc3 = (r, h) => 2 * 3.14 * r* 11
-console.log(calc3(2, 5))
+console.log(calc3(2, 5));
 
 //- створити функцію яка створює параграф з текстом. Текст задати через аргумент
 let showMessage = (text) =>
-    document.write(`<p>${text}</p>`)
+    document.write(`<p>${text}</p>`);
 
 showMessage('asdqawdasdasdawdasdaw dasdwadsdaw')
 //- створити функцію яка приймає масив та виводить кожен його елемент
