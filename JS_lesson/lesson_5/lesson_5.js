@@ -37,12 +37,12 @@ let user = [
 let showUser = (text1)=> {
     for (let i = 0; i < text1.length; i++) {
         let text1Element = text1[i];
-        console.log(text1Element)
+        console.log(text1Element);
 
     }
 
 }
-showUser(user)
+showUser(user);
 
 
 // - створити функцію яка створює ul з трьома елементами li. Текст li задати через аргумент всім однаковий
