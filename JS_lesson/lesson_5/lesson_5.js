@@ -67,6 +67,7 @@ ShowUL('123')
 
 // створити функцію яка створює ul з трьома елементами li. Текст li задати через аргумент всім однаковий. Кількість li визначається другим аргументом, який є числовим (тут використовувати цикл)
 
+
 let ShowUL1 = (Ulargument1) => {
     document.write('<ul>')
     for (let i = 0; i < Ulargument1.length; i++) {
@@ -79,6 +80,7 @@ let ShowUL1 = (Ulargument1) => {
 
 ShowUL1('3453')
 // створити функцію яка приймає масив примітивних елементів (числа,стрінги,булеві), та будує для них список
+
 let massive = ['asda', 22, true, '123', 399, false]
 
 let ElementCather = (element) => {
@@ -92,6 +94,7 @@ let ElementCather = (element) => {
 
 ElementCather(massive)
 // - створити функцію яка приймає масив об'єктів з наступними полями id,name,age , та виводить їх в документ. Для кожного об'єкту окремий блок.
+
 //(масив)
 let user1 = [
     {
@@ -116,6 +119,7 @@ let Object = (people) => {
         document.write(`<div>name: ${people[i].name}<br>age: ${people[i].age}<br>id: ${people[i].id} </div>`)
     }
 }
+
 
 Object(user1)
 
