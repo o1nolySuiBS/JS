@@ -13,11 +13,13 @@ let calc3 = (r, h) => 2 * 3.14 * r* 11
 console.log(calc3(2, 5));
 
 //- створити функцію яка створює параграф з текстом. Текст задати через аргумент
+
 let showMessage = (text) =>
     document.write(`<p>${text}</p>`);
 
 showMessage('asdqawdasdasdawdasdaw dasdwadsdaw')
 //- створити функцію яка приймає масив та виводить кожен його елемент
+
 let user = [
     {
         name: 'Andriy1',
@@ -45,6 +47,7 @@ let showUser = (text1)=> {
 
 }
 showUser(user);
+
 
 
 // - створити функцію яка створює ul з трьома елементами li. Текст li задати через аргумент всім однаковий
