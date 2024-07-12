@@ -43,9 +43,11 @@ let showUser = (text1)=> {
         let text1Element = text1[i];
         console.log(text1Element);
 
+
     }
 
 }
+
 showUser(user);
 
 
@@ -59,9 +61,12 @@ let ShowUL = (Ulargument) => {
     document.write(`</ul>`)
 }
 
+
 ShowUL('123')
 
+
 // створити функцію яка створює ul з трьома елементами li. Текст li задати через аргумент всім однаковий. Кількість li визначається другим аргументом, який є числовим (тут використовувати цикл)
+
 let ShowUL1 = (Ulargument1) => {
     document.write('<ul>')
     for (let i = 0; i < Ulargument1.length; i++) {
